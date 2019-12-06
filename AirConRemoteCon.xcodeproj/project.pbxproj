@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		736F6244239AA17000943C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F6243239AA17000943C0D /* AppDelegate.swift */; };
+		736F6246239AA17000943C0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F6245239AA17000943C0D /* ViewController.swift */; };
+		736F6249239AA17000943C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736F6247239AA17000943C0D /* Main.storyboard */; };
+		736F624B239AA17100943C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736F624A239AA17100943C0D /* Assets.xcassets */; };
+		736F624E239AA17100943C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736F624C239AA17100943C0D /* LaunchScreen.storyboard */; };
+		736F6259239AA17100943C0D /* AirConRemoteConTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F6258239AA17100943C0D /* AirConRemoteConTests.swift */; };
+		736F6264239AA17100943C0D /* AirConRemoteConUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F6263239AA17100943C0D /* AirConRemoteConUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		736F6255239AA17100943C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736F6238239AA17000943C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 736F623F239AA17000943C0D;
+			remoteInfo = AirConRemoteCon;
+		};
+		736F6260239AA17100943C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736F6238239AA17000943C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 736F623F239AA17000943C0D;
+			remoteInfo = AirConRemoteCon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		736F6240239AA17000943C0D /* AirConRemoteCon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirConRemoteCon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		736F6243239AA17000943C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		736F6245239AA17000943C0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		736F6248239AA17000943C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		736F624A239AA17100943C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		736F624D239AA17100943C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		736F624F239AA17100943C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736F6254239AA17100943C0D /* AirConRemoteConTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirConRemoteConTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		736F6258239AA17100943C0D /* AirConRemoteConTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConRemoteConTests.swift; sourceTree = "<group>"; };
+		736F625A239AA17100943C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736F625F239AA17100943C0D /* AirConRemoteConUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirConRemoteConUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		736F6263239AA17100943C0D /* AirConRemoteConUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConRemoteConUITests.swift; sourceTree = "<group>"; };
+		736F6265239AA17100943C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		736F623D239AA17000943C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F6251239AA17100943C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F625C239AA17100943C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		736F6237239AA17000943C0D = {
+			isa = PBXGroup;
+			children = (
+				736F6242239AA17000943C0D /* AirConRemoteCon */,
+				736F6257239AA17100943C0D /* AirConRemoteConTests */,
+				736F6262239AA17100943C0D /* AirConRemoteConUITests */,
+				736F6241239AA17000943C0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		736F6241239AA17000943C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				736F6240239AA17000943C0D /* AirConRemoteCon.app */,
+				736F6254239AA17100943C0D /* AirConRemoteConTests.xctest */,
+				736F625F239AA17100943C0D /* AirConRemoteConUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		736F6242239AA17000943C0D /* AirConRemoteCon */ = {
+			isa = PBXGroup;
+			children = (
+				736F6243239AA17000943C0D /* AppDelegate.swift */,
+				736F6245239AA17000943C0D /* ViewController.swift */,
+				736F6247239AA17000943C0D /* Main.storyboard */,
+				736F624A239AA17100943C0D /* Assets.xcassets */,
+				736F624C239AA17100943C0D /* LaunchScreen.storyboard */,
+				736F624F239AA17100943C0D /* Info.plist */,
+			);
+			path = AirConRemoteCon;
+			sourceTree = "<group>";
+		};
+		736F6257239AA17100943C0D /* AirConRemoteConTests */ = {
+			isa = PBXGroup;
+			children = (
+				736F6258239AA17100943C0D /* AirConRemoteConTests.swift */,
+				736F625A239AA17100943C0D /* Info.plist */,
+			);
+			path = AirConRemoteConTests;
+			sourceTree = "<group>";
+		};
+		736F6262239AA17100943C0D /* AirConRemoteConUITests */ = {
+			isa = PBXGroup;
+			children = (
+				736F6263239AA17100943C0D /* AirConRemoteConUITests.swift */,
+				736F6265239AA17100943C0D /* Info.plist */,
+			);
+			path = AirConRemoteConUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		736F623F239AA17000943C0D /* AirConRemoteCon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736F6268239AA17100943C0D /* Build configuration list for PBXNativeTarget "AirConRemoteCon" */;
+			buildPhases = (
+				736F623C239AA17000943C0D /* Sources */,
+				736F623D239AA17000943C0D /* Frameworks */,
+				736F623E239AA17000943C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirConRemoteCon;
+			productName = AirConRemoteCon;
+			productReference = 736F6240239AA17000943C0D /* AirConRemoteCon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		736F6253239AA17100943C0D /* AirConRemoteConTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736F626B239AA17100943C0D /* Build configuration list for PBXNativeTarget "AirConRemoteConTests" */;
+			buildPhases = (
+				736F6250239AA17100943C0D /* Sources */,
+				736F6251239AA17100943C0D /* Frameworks */,
+				736F6252239AA17100943C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				736F6256239AA17100943C0D /* PBXTargetDependency */,
+			);
+			name = AirConRemoteConTests;
+			productName = AirConRemoteConTests;
+			productReference = 736F6254239AA17100943C0D /* AirConRemoteConTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		736F625E239AA17100943C0D /* AirConRemoteConUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736F626E239AA17100943C0D /* Build configuration list for PBXNativeTarget "AirConRemoteConUITests" */;
+			buildPhases = (
+				736F625B239AA17100943C0D /* Sources */,
+				736F625C239AA17100943C0D /* Frameworks */,
+				736F625D239AA17100943C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				736F6261239AA17100943C0D /* PBXTargetDependency */,
+			);
+			name = AirConRemoteConUITests;
+			productName = AirConRemoteConUITests;
+			productReference = 736F625F239AA17100943C0D /* AirConRemoteConUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		736F6238239AA17000943C0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "齋藤悠太";
+				TargetAttributes = {
+					736F623F239AA17000943C0D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					736F6253239AA17100943C0D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 736F623F239AA17000943C0D;
+					};
+					736F625E239AA17100943C0D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 736F623F239AA17000943C0D;
+					};
+				};
+			};
+			buildConfigurationList = 736F623B239AA17000943C0D /* Build configuration list for PBXProject "AirConRemoteCon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 736F6237239AA17000943C0D;
+			productRefGroup = 736F6241239AA17000943C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				736F623F239AA17000943C0D /* AirConRemoteCon */,
+				736F6253239AA17100943C0D /* AirConRemoteConTests */,
+				736F625E239AA17100943C0D /* AirConRemoteConUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		736F623E239AA17000943C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736F624E239AA17100943C0D /* LaunchScreen.storyboard in Resources */,
+				736F624B239AA17100943C0D /* Assets.xcassets in Resources */,
+				736F6249239AA17000943C0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F6252239AA17100943C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F625D239AA17100943C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		736F623C239AA17000943C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736F6246239AA17000943C0D /* ViewController.swift in Sources */,
+				736F6244239AA17000943C0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F6250239AA17100943C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736F6259239AA17100943C0D /* AirConRemoteConTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F625B239AA17100943C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736F6264239AA17100943C0D /* AirConRemoteConUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		736F6256239AA17100943C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 736F623F239AA17000943C0D /* AirConRemoteCon */;
+			targetProxy = 736F6255239AA17100943C0D /* PBXContainerItemProxy */;
+		};
+		736F6261239AA17100943C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 736F623F239AA17000943C0D /* AirConRemoteCon */;
+			targetProxy = 736F6260239AA17100943C0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		736F6247239AA17000943C0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				736F6248239AA17000943C0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		736F624C239AA17100943C0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				736F624D239AA17100943C0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		736F6266239AA17100943C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		736F6267239AA17100943C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		736F6269239AA17100943C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526JGQ46U3;
+				INFOPLIST_FILE = AirConRemoteCon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = y.saito.AirConRemoteCon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		736F626A239AA17100943C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526JGQ46U3;
+				INFOPLIST_FILE = AirConRemoteCon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = y.saito.AirConRemoteCon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		736F626C239AA17100943C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526JGQ46U3;
+				INFOPLIST_FILE = AirConRemoteConTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = y.saito.AirConRemoteConTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirConRemoteCon.app/AirConRemoteCon";
+			};
+			name = Debug;
+		};
+		736F626D239AA17100943C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526JGQ46U3;
+				INFOPLIST_FILE = AirConRemoteConTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = y.saito.AirConRemoteConTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirConRemoteCon.app/AirConRemoteCon";
+			};
+			name = Release;
+		};
+		736F626F239AA17100943C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526JGQ46U3;
+				INFOPLIST_FILE = AirConRemoteConUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = y.saito.AirConRemoteConUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirConRemoteCon;
+			};
+			name = Debug;
+		};
+		736F6270239AA17100943C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526JGQ46U3;
+				INFOPLIST_FILE = AirConRemoteConUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = y.saito.AirConRemoteConUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirConRemoteCon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		736F623B239AA17000943C0D /* Build configuration list for PBXProject "AirConRemoteCon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736F6266239AA17100943C0D /* Debug */,
+				736F6267239AA17100943C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736F6268239AA17100943C0D /* Build configuration list for PBXNativeTarget "AirConRemoteCon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736F6269239AA17100943C0D /* Debug */,
+				736F626A239AA17100943C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736F626B239AA17100943C0D /* Build configuration list for PBXNativeTarget "AirConRemoteConTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736F626C239AA17100943C0D /* Debug */,
+				736F626D239AA17100943C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736F626E239AA17100943C0D /* Build configuration list for PBXNativeTarget "AirConRemoteConUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736F626F239AA17100943C0D /* Debug */,
+				736F6270239AA17100943C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 736F6238239AA17000943C0D /* Project object */;
+}
